@@ -1,0 +1,15 @@
+p {
+    font-size: 2em;
+}
+
+.importante {
+    margin:auto;
+    width: 50%;
+    text-align: justify;
+    background-color: aquamarine;
+}
+
+#pasImportant {
+    padding: 30px;
+    border: purple solid 4px;
+}

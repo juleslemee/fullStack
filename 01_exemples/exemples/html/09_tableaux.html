@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Les tableaux en HTML</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+<!--
+Le tableau HTML permet d'organiser les données en lignes et colonnes. Il est couramment utilisé pour afficher des données tabulaires. Il est ajouté à l'aide de l'élément <table>.
+
+À l'intérieur de l'élément <table>, nous retrouvons les éléments :
+<tr> permettent de créer des lignes
+<td> pour créer des colonnes à l'intérieur d'une ligne.
+<th> quand à lui, permet de définir une cellule d'en-tête "header".
+
+En HTML, Les tableaux n'ont pas de bordures par défaut. Il faudra utiliser la propriété CSS "border" pour ajouter des bordures aux tables.
+-->
+<table>
+	<tr>
+		<th></th>
+		<th>Produit 1</th>
+		<th>Produit 2</th>
+	</tr>
+	<tr>
+		<th>Montant avant taxes</th>
+		<td>100.00 $</td>
+		<td>200.00 $</td>
+	</tr>
+	<tr>
+		<th>TPS (5%)</th>
+		<td>5.00 $</td>
+		<td>10.00 $</td>
+	</tr>
+	<tr>
+		<th>TVQ (9.975%)</th>
+		<td>9.98 $</td>
+		<td>19.95 $</td>
+	</tr>
+	<tr>
+		<th>Montant TTC</th>
+		<td>114.98 $</td>
+		<td>229.95 $</td>
+	</tr>
+</table>
+</body>
+</html>

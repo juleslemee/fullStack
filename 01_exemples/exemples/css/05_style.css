@@ -1,0 +1,12 @@
+h1 {
+    font-family: Sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+h1, p, div {
+	background-color:black;
+    color: white;
+	width:300px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Les formulaires en HTML</title>
+</head>
+<body>
+  <!--
+	Les formulaires HTML sont nécessaires pour être en mesure de collecter différentes informations fournies par l'utilisateur.
+
+    Les formulaires contiennent des éléments spéciaux appelés contrôles tels que les boîtes de saisie, cases à cocher, boutons radio, boutons de soumission, etc.
+    Les utilisateurs remplissent généralement un formulaire en modifiant les valeurs de ses contrôles, par exemple saisir du texte, sélectionner des éléments et soumettre ce formulaire à un serveur Web pour un traitement de ces données.
+
+    La balise <form> est utilisée pour créer un formulaire HTML.
+
+    Les attributs les plus fréquemment utilisés avec la balise <form> sont :
+    - name : permet de spécifier le nom du formulaire.
+    - action : permet de renseigner l'URL du programme ou du script sur le serveur Web qui sera utilisée pour traiter les informations soumises par le formulaire.
+    - method : permet de sélectionner la méthode HTTP utilisée pour envoyer les données au serveur Web par le navigateur. La valeur peut être get (par défaut) et post. Cette notion sera abordée ultérieurement !
+    - enctype : définit la façon dont les données du formulaire doivent être encodées lors de la soumission du formulaire au serveur. Applicable uniquement lorsque la valeur de l'attribut de méthode est post.
+  -->
+
+  <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+    <label for="login" >Nom d'usager: </label>
+    <input id="login" type="text"><br><br>
+    
+    <label for="passwd">Mot de passe: </label>
+    <input id="passwd" type="password"><br><br>
+    <input type="submit" value="Se connecter">
+  </form>
+
+</body>
+</html>

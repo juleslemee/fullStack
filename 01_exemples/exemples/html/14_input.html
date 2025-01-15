@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'élément "input"</title>
+</head>
+<body>
+<!--
+	Il s'agit de l'élément le plus couramment utilisé dans les formulaires HTML.
+
+	Il permet de spécifier différents types de champs de saisie, selon la valeur de l'attribut "type". Un élément d'entrée peut être de type champ de texte, champ de mot de passe, case à cocher, bouton radio, bouton de soumission, bouton de réinitialisation, zone de sélection de fichier, ainsi que plusieurs nouveaux types d'entrée introduits dans HTML5.
+-->
+
+<form action="#" method="get">
+	<!-- Zone de texte -->
+	<label for="txtLogin">Nom d'usager : </label>
+	<input type="text" name="txtLogin" id="txtLogin" value="mehdi" maxlength="10"><br>
+
+	<!-- Zone de mot de passe -->
+	<label for="passwd">Mot de passe : </label>
+	<input type="password" name="passwd" id="passwd" maxlength="10" ><br><br>
+
+	<!-- Cases à cocher -->
+	<input type="checkbox" name="choix" id="chkApple" value="apple">
+	<label for="chkApple">Pomme</label><br>
+	<input type="checkbox" name="choix" id="chkPear" value="pear" checked>
+	<label for="chkPear">Poire</label><br>
+	<input type="checkbox" name="choix" id="chkMango" value="mango" checked>
+	<label for="chkMango">Mangue</label><br><br>
+
+	<!-- Bouton radio -->
+	<input type="radio" name="genre" id="radMale" value="m" checked>
+	<label for="radMale">Masculin</label><br>
+	<input type="radio" name="genre" id="radFemale" value="f">
+	<label for="radFemale">Féminin</label><br>
+
+    <!-- La boite de téléversement de documents  -->
+    <label for="file-select">CV : </label>
+    <input type="file" name="upload" id="file-select">
+
+    <!-- 
+		Le bouton d'envoi "submit" permet d'envoyer les données du formulaire à un serveur Web. Lorsqu'on' clique sur le bouton Soumettre, les données du formulaire sont envoyées au fichier spécifié dans l'attribut "action" du formulaire pour que ce dernier traite les données soumises.
+
+		Un bouton de réinitialisation "reset" réinitialise tous les contrôles de formulaires aux valeurs par défaut.
+    -->
+
+	<!-- Boutons -->
+	<input type="button" value="Bouton" />
+	<input type="reset"  value="Réinitialiser" />
+	<input type="submit" value="Soumettre" />
+
+</form>
+
+</body>
+</html>

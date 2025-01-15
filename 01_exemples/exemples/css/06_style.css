@@ -1,0 +1,13 @@
+.center {
+    text-align: center;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+h1, p, div {
+	background-color:black;
+    color: white;
+	width:300px;
+}

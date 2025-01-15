@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>L'élément "input"</title>
+</head>
+<body>
+
+<form action="#" method="get">
+
+	<!-- Liste de sélection -->
+	<label for="etudes">Niveau d'études :  </label><br>
+	<select name="etudes" id="etudes" size="1">
+		<option value="dec">Diplôme d'étude collégiales</option>
+		<option value="b">Baccalauréat</option>
+		<option value="m">Maîtrise</option>
+		<option value="d">Doctorat</option>
+	</select><br><br><br><br><br><br>
+
+	<label for="technologies">Technologies :  </label><br>
+	<select name="technologies" id="technologies" size="5" multiple>
+		<option value="html">HyperText Markup Language</option>
+		<option value="css">Cascading Style Sheets</option>
+		<option value="js">JavaScript</option>
+		<option value="jsp">Java Server Pages</option>
+		<option value="java">Java</option>
+	</select><br><br>
+
+
+	<!-- Champ de texte multiligne -->
+	<label for="motivation">Vos motivations :  </label><br>
+	<textarea name="motivation" cols="40" rows="3">Je suis ...</textarea><br>
+</form>
+
+</body>
+</html>
